@@ -89,9 +89,12 @@
   grid-row: 5/6;
 }
 
-.article-description a {
-  text-decoration: none;
+.view-projects a {
   color: #fa4969;
+  font-weight: bold;
+  font-size: small;
+  padding: 8px;
+  text-decoration: underline;
 }
 
 .article-description-text {
@@ -440,13 +443,21 @@ form input[type="text"] {
   fill: #fff;
 }
 
-.view-projects {
-  text-decoration: underline;
-}
-
 @media (min-width: 768px) {
   .page-header {
     height: 676px;
+  }
+
+  .view-projects a {
+    font-size: x-small;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .view-projects a {
+    font-size: medium;
+    padding: 8px;
   }
 }
 
