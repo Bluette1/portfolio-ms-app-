@@ -110,7 +110,7 @@
 .project-1 {
   grid-column: span 1;
   height: 370px;
-  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 8% 10% no-repeat;
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-mcalc.jpg')) 8% 10% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
@@ -120,7 +120,7 @@
 .project-2 {
   grid-column: span 1;
   height: 370px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 8% 37% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('weather-app.jpg')) 8% 37% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
@@ -134,14 +134,14 @@
 
 .project-4 {
   height: 370px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 0% 0% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('starwars.jpg')) 0% 0% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
 .project-5 {
   height: 370px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-holiday-homes.png')) 1% 12% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('holidayhomes.jpg')) 1% 4% no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
@@ -151,6 +151,21 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('xextris.png')) 50.5% 32% no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+
+.project-1:hover,
+.project-2:hover,
+.project-3:hover,
+.project-4:hover,
+.project-5:hover,
+.project-6:hover {
+  border: #737986 solid 5px;
+  opacity: 1;
+}
+
+.project {
+  opacity: 0.87;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .about-me {
@@ -493,7 +508,7 @@ form input[type="text"] {
   .project-1 {
     grid-column: span 1;
     height: 370px;
-    background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-calc.png')) 17% 16% no-repeat;
+    background: linear-gradient(180deg, rgba(7, 7, 7, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-mcalc.jpg')) 17% 16% no-repeat;
     background-size: cover;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
@@ -503,7 +518,7 @@ form input[type="text"] {
   .project-2 {
     grid-column: span 1;
     height: 370px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-weatherapp.png')) 8% 31% no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('weather-app.jpg')) 8% 31% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
@@ -517,14 +532,14 @@ form input[type="text"] {
 
   .project-4 {
     height: 370px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-star-wars-data-app')) 49% 0% no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('starwars.jpg')) 49% 0% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
 
   .project-5 {
     height: 370px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-holiday-homes.png')) 5% 12% no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('holidayhomes.jpg')) 5% 12% no-repeat;
     background-size: cover;
     border-radius: 10px;
   }
